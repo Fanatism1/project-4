@@ -1,0 +1,557 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap')
+
+*,body
+    box-sizing: border-box
+.container
+    overflow: hidden
+
+.nav__container
+    padding: 12px 24px 12px 24px
+    background: #0B0B0B
+    display: flex
+    align-items: center
+    justify-content: space-between
+    .burger__menu-block
+        display: none
+    .nav__block1
+        .nav__block1-ol
+            display: flex
+            align-items: center
+            .li__div
+                position: relative
+                .block1__container-li
+                    display: flex
+                    .block1__li-div
+                        margin-right: 2px
+                        width: 6px
+                        height: 6px
+                        border: 1px solid #fff
+                        border-color: #fff
+                        border-radius: 999px                
+                    .block1__li-div:last-child
+                        margin: 0
+                .block1__container-li:hover div
+                    border-color: grey
+                .li__div-ul
+                    display: none
+                    border: 1px solid grey
+                    position: absolute
+                    top: 15px
+                    background: black
+                    color: #fff
+                    padding: 8px 7px 8px 8px
+                    width: 130px
+                    .li__div-ol
+                        width: 100%
+                        padding: 5px
+                        margin-bottom: 1px
+                    .li__div-ol:hover
+                        background: #101010
+                    .li__div-ol:last-child
+                        margin: 0
+            .nav__block1-li
+                font: 400 13px Segoe UI
+                color: #fff
+                margin-right: 24px
+            .block1__first-li1
+                margin-right: 40px
+                img
+                    width: 130px
+            .nav__block1-l:last-child
+                margin: 0
+            .nav__block1-li:hover 
+                color: grey     
+                cursor: pointer
+    .nav__block2
+        .nav__block2-ol
+            display: flex
+            .nav__block2-li
+                font: 400 13px Segoe UI
+                color: #fff
+                margin-right: 8px
+            .block2__li-5
+                margin-right: 24px
+            .block2__li-logo
+                margin-right: 16px
+                img
+                    width: 17px
+                    height: 17px
+            .nav__block2-li:last-child
+                margin: 0
+            .nav__block2-li:hover
+                cursor: pointer
+                color: grey
+.header__section1
+    background-image: url("/site5/img/bg-header.png")
+    padding: 125px 25px 0px 25px
+    .section1__block
+        margin-bottom: 86px
+        line-height: 110px
+        .section1__text
+            font: 400 90px Segoe UI
+            line-height: 100px
+            color: #ffff
+            text-align: center
+    .section1__block-button
+        display: flex
+        justify-content: center
+        padding-bottom: 98px
+        .section__button
+            font: 16px 400 Segoe UI
+            border: 0 solid black
+            border-radius: 9999px
+            padding: 12px 18px
+            background: yellow
+        .section__button:hover
+            background: #a4b003
+            cursor: pointer
+.main
+    .main__section1
+        display: flex
+        flex-wrap: wrap
+        .main__section1-block1
+            width: 50%
+            height: 95vh //550px //740px
+            padding: 0 7.8vw //100px
+            display: flex
+            align-items: center
+            .section1-box1
+                .section1__block1-title
+                    font: 400 30px Segoe UI
+                    color: #ffff
+                    line-height: 35px
+                    margin-bottom: 28px
+                .section1__block1-text
+                    font: 400 13px Segoe UI
+                    color: #ffff
+                    margin-bottom: 32px
+                .section1__block1-button
+                    font: 400 14px Segoe Ui
+                    color: #ffff
+                    padding: 8px 15px
+                    border-radius: 9999px
+                    background: #000
+                    margin-bottom: 10px
+                .section1__block1-button:hover
+                    opacity: 0.9
+                    cursor: pointer
+        .main__section1-block2 
+            width: 50%
+            position: relative
+            .section1__block2-video
+                height: 95vh
+                position: absolute
+                width: 100%
+                object-fit: cover
+            .section1__block2-box
+                position: relative
+                height: 95vh //550px  //740px
+                display: flex
+                align-items: center
+                justify-content: center
+                .section1__block2-text
+                    font: 400 90px Segoe UI
+                    position: absolute
+                    text-align: center
+                    z-index: 100
+                    color: #fff
+        .section1-block1
+            background: #4A00FF
+        .section1-block2
+            background: #00FF9D
+            .section1-box1
+                .section1__block1-title,.section1__block1-text
+                    color: black
+        .section1-block3
+            background: #FF8B00
+            .section1-box1
+                .section1__block1-title,.section1__block1-text
+                    color: black
+    .main__section2
+        padding-top: 47px
+        background: black
+        .main__section2-block
+            .section2__box
+                position: relative
+                height: 150px
+                .section2__block1-title
+                    right: 20px
+                    position: absolute
+                    font: 400 60px Segoe UI
+                    color: #fff
+        .main__section2-block2
+            overflow: hidden
+            box-sizing: content-box
+            padding-left: 50px
+            .section2__block2-box
+                position: relative
+                left: 0
+                display: flex
+                justify-content:  space-between
+                transition-duration: 0.5s
+                margin-bottom: 35px
+                .section2__block2-img1,.section2__block2-img2,.section2__block2-img3,.section2__block2-img4,.section2__block2-img5,.section2__block2-img6
+                    margin-right: 5.07vw //65px
+                    height: 35vw //458px
+                    min-width: 26.56vw //26.56vw 340px 
+                    width: 100% //341px
+                    background-repeat: no-repeat
+                    position: relative
+                .section2__block2-img1
+                    background-image: url("/site5/img/IMg1.png")
+                    background-size: cover
+                .section2__block2-img2
+                    background-image: url("/site5/img/IMAGE2.png")
+                    background-size: cover
+                .section2__block2-img3
+                    background-image: url("/site5/img/img3.jpeg")
+                    background-size: cover
+                .section2__block2-img4
+                    background-image: url("/site5/img/img4.jpeg")
+                    background-size: cover
+                .section2__block2-img5
+                    background-image: url('/site5/img/img5.jpeg')
+                    background-size: cover
+                .section2__block2-img6
+                    background-image: url('/site5/img/img6.jpeg')
+                    background-size: cover
+                .section2__block2-img1,.section2__block2-img2,.section2__block2-img3,.section2__block2-img4,.section2__block2-img5,.section2__block2-img6
+                    color: #fff
+                    .section2__block2-img1-box
+                        height: auto
+                        position: absolute
+                        bottom: 0
+                        padding: 23vw 1.17vw 4.17vw  1.5vw //300px up 16px right
+                        .block2__img1-title
+                            font: 400 30px Segoe UI
+                            line-height:30px
+                            margin-bottom: 20px
+                        .block2__img1-text
+                            font: 400 18px Segoe UI    
+                .section2__block2-img4,.section2__block2-img2
+                    //padding-top: 23vw //260px
+            .section2__block3
+                .block3__button-back
+                    margin-right: 10px
+                    margin-bottom: 64px
+                .block3__button-next,.block3__button-back
+                    width: 50px
+                    height: 50px
+                    background: black
+                    color: #fff
+                    cursor: pointer
+                    border: 0.5px solid #fff
+                    border-radius: 999px
+                .block3__button-next:hover , .block3__button-back:hover
+                    cursor: pointer
+    .main__section3
+        background: #ff39c7
+        padding-left: 50px
+        padding-top: 60px
+        .section3__block
+            margin-bottom: 80px
+            .section3__block-title
+                font: 400 30px Segoe UI
+        .section3__block2
+            padding-bottom: 90px
+            display: flex
+            justify-content: center
+            flex-wrap: wrap
+            .section3__block2-img
+                width: 160px
+                height: 82px
+                margin-right: 30px
+            .section__block2-img:last-child
+                margin: 0
+    .main__section4
+        padding: 32px 24px 0 2vw
+        display: flex
+        justify-content: center
+        .section4__block
+            .section4__box1
+                margin-bottom: 23px
+                .section4__box1-title
+                    font: 500 20px Segoe UI
+            .section4__box2
+                display: flex
+                .section4__ul1
+                    margin-right: 10vw //130px
+                    //width: 20%
+                    .section4__li1
+                        font: 500 13px Segoe UI
+                        margin-bottom: 14px
+                        min-width: 125px
+                        height: 18px
+                .section4__ul2
+                    //min-width: 10px
+                    //width: 60%
+                    box-sizing: content-box
+                    padding-right: 22.4vw  //198px
+                    .section4__li2
+                        font: 500 13px Segoe UI
+                        margin-bottom: 14px
+                        
+                .section4__ul3
+                    //width: 20%
+                    text-align: right
+                    .section4__li3
+                        font: 400 14px Segoe UI
+                        margin-bottom: 14px
+                        width: 150px
+                        height: 19px
+.footer
+    padding-top: 59px
+    background: #000
+    .footer__block
+        padding-bottom: 50px
+        display: flex
+        justify-content: center
+        .footer__title
+            font: 400 70px Segoe Ui
+            color: #fff
+    .footer__block2
+        padding-bottom: 64px
+        display: flex
+        justify-content: center
+        .footer__button
+            padding: 10px 22px 
+            border-radius: 999px
+            background: yellow
+        .footer__button:hover
+            background: #a4b003
+            cursor: pointer
+
+
+@media screen and ( max-width:600px )
+    .footer
+        .footer__block
+            .footer__title
+                font: 400 50px Segoe Ui
+                color: #fff
+
+@media screen and ( max-width:729px )
+    .main
+        .main__section2
+            .main__section2-block
+            .main__section2-block2
+                padding-left: 5vw //50px
+                .section2__block2-box
+                    .section2__block2-img1,.section2__block2-img2,.section2__block2-img3,.section2__block2-img4,.section2__block2-img5,.section2__block2-img6
+                        height: 55vw //458px
+                        //min-width: 26.56vw //26.56vw 340px 
+                        min-width: 40vw //341px  
+@media screen and ( max-width:743px )
+    .main
+        .main__section2
+            .main__section2-block
+                .section2__box
+                    height: 100px
+                    .section2__block1-title
+                        font: 400 40px Segoe UI
+        .main__section3
+            padding-left: 3vw //50px
+            .section3__block2
+                padding-bottom: 6vw //90px
+                .section3__block2-img
+                    min-width: 100px   //160px
+                    max-width: 160px
+                    margin-right: 2.4vw //30px
+        .main__section4
+            display: none
+
+@media screen and ( max-width:817px )
+    .nav__container
+        max-width:817px
+        position: relative
+        z-index: 2
+        padding: 12px 24px 12px 24px
+        background: #0B0B0B
+        display: flex
+        align-items: center
+        justify-content: space-between
+        position: relative
+        z-index: 1
+        .burger__menu-block
+            overflow: hidden
+            left: 0
+            width: 816px
+            position: relative
+            z-index: 4
+            background: #000a0a
+            display: none
+            justify-content: space-between
+            height: 100vh
+            .burder__box
+                margin-bottom: 25px
+                display: flex
+                padding: 20px 20px 20px 25px
+                border-bottom: 1px solid #3b3b3b
+                justify-content: space-between
+                width: 100%
+                .burder__img
+                    width: 120px
+                .burger__X-box
+                    cursor: pointer
+                    position: relative
+                    width: 20px
+                    height: 20px
+                    right: 10px
+                    transform: rotate(45deg)
+                    .burder__X
+                        background: #fff
+                        width: 20px
+                        bottom: 10px
+                        height: 0.9px
+                        position: absolute
+                    .X-1
+                    .X-2
+                        transform: rotate(90deg)
+            .burger__menu-text
+                padding-left: 25px
+                padding-right: 15px
+                margin-bottom: 20px
+                .burger__text-block
+                    .burder__ul
+                        margin-bottom: 20px
+                        .burger__li:hover
+                            cursor: pointer
+                        .burger__li
+                            width: 150px
+                            color: #fff
+                            margin-bottom: 27px
+                            font: 600 16px Segoe UI
+                            img
+                                margin-right: 20px
+                        .burger__li:last-child
+                            margin: 0
+                    .burger__hr
+                        border-bottom: 1px solid #3b3b3b
+            .burger__footer
+                padding-left: 25px
+                padding-right: 15px
+                .burger__footer-block
+                    .burder__footer-box
+                        margin-bottom: 20px
+                        .burger__footer-text
+                            color: #fff
+                            font: 500 16px Segoe UI
+                        .burger__footer-text:hover
+                            cursor: pointer
+                    .burger__footer-block2
+                        display: flex
+                        flex-direction: column
+                        .burger__link1
+                            color: #fff
+                            background: #000
+                            border: 1px solid #fff
+                        .burger__link1:hover
+                            border-color:  #727272
+                        .burger__link2
+                            margin-bottom: 20px
+                            color: #000
+                            background: #ffff04eb
+                        .burger__link2:hover
+                            background:#c0c000eb
+                        .burger__link3
+                            color: #000
+                            background: #00ed82
+                        .burger__link3:hover
+                           background: #cdcd00eb
+                        .burger__link1,.burger__link2,.burger__link3
+                            transition-duration: 0.2s
+                            text-decoration: none
+                            font: 400 14px Segoe UI
+                            text-align: center
+                            border-radius: 999px
+                            padding: 10px 20px 
+                            margin-bottom: 10px
+        .nav__block1
+            display: block
+            .nav__block1-ol
+                .burger__box-logo
+                    display: block
+                    cursor: pointer
+                    margin-right: 15px
+                    .burger-logo
+                        border-top: 1.5px solid grey
+                        width: 20px
+                        height: 5px
+                .nav__block1-li_hidden
+                    display: none
+        .nav__block2
+            display: block
+            .nav__block2-ol
+                display: flex
+                .nav__block2-li_hidden
+                    display: none
+        
+@media screen and ( max-width:837px )
+    .main
+        .main__section1
+            .main__section1-block1
+                padding: 0 2.8vw //100px
+            .main__section1-block2 
+                .section1__block2-box
+                    .section1__block2-text
+                        font: 400 50px Segoe UI
+@media screen and ( max-width:1024px )
+    .header__section1
+        .section1__block
+            .section1__text
+                font: 400 50px Segoe UI
+                line-height: 50px
+@media screen and ( max-width: 620px ) 
+    .main
+        .main__section1
+            display: grid
+            grid-template-rows: repeat(6,auto)
+            .div-3
+                grid-area: 4/1/4/1
+            .div-1,.div-4,.div-5
+                min-height: 50vh
+                height: auto
+            .div-2,.div-3,.div-6
+                height: 60vh
+                .section1__block2-video
+                    height: 60vh
+                .section1__block2-box
+                    height: 60vh
+            .main__section1-block1
+                width: 100%
+            .main__section1-block2
+                width: 100%
+                
+                
+
+@media screen and ( max-width:482px )
+    .main
+        .main__section2
+            padding-top: 27px
+            .main__section2-block
+                .section2__box
+                    height: 60px
+                    .section2__block1-title
+                        right: 20px
+                        position: absolute
+                        font: 400 25px Segoe UI
+                        color: #ffffff 
+            .main__section2-block2
+                .section2__block2-box
+                    .section2__block2-img1,.section2__block2-img2,.section2__block2-img3,.section2__block2-img4,.section2__block2-img5,.section2__block2-img6
+                        .section2__block2-img1-box
+                            .block2__img1-title
+                                font: 400 20px Segoe UI
+                                line-height:20px
+                                margin-bottom: 5px
+                            .block2__img1-text
+                                font: 400 14px Segoe UI    
+    .footer
+        padding-top: 59px
+        background: #000
+        .footer__block
+            padding-bottom: 50px
+            display: flex
+            justify-content: center
+            .footer__title
+                font: 400 30px Segoe Ui
+                color: #fff
