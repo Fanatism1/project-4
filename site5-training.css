@@ -107,7 +107,7 @@
 }
 
 .header__section1 {
-  background-image: url("/site5/img/bg-header.png");
+  background-image: url("img/bg-header.png");
   padding: 125px 25px 0px 25px;
 }
 .header__section1 .section1__block {
@@ -246,27 +246,27 @@
   position: relative;
 }
 .main .main__section2 .main__section2-block2 .section2__block2-box .section2__block2-img1 {
-  background-image: url("/site5/img/IMg1.png");
+  background-image: url("img/IMg1.png");
   background-size: cover;
 }
 .main .main__section2 .main__section2-block2 .section2__block2-box .section2__block2-img2 {
-  background-image: url("/site5/img/IMAGE2.png");
+  background-image: url("img/IMAGE2.png");
   background-size: cover;
 }
 .main .main__section2 .main__section2-block2 .section2__block2-box .section2__block2-img3 {
-  background-image: url("/site5/img/img3.jpeg");
+  background-image: url("img/img3.jpeg");
   background-size: cover;
 }
 .main .main__section2 .main__section2-block2 .section2__block2-box .section2__block2-img4 {
-  background-image: url("/site5/img/img4.jpeg");
+  background-image: url("img/img4.jpeg");
   background-size: cover;
 }
 .main .main__section2 .main__section2-block2 .section2__block2-box .section2__block2-img5 {
-  background-image: url("/site5/img/img5.jpeg");
+  background-image: url("img/img5.jpeg");
   background-size: cover;
 }
 .main .main__section2 .main__section2-block2 .section2__block2-box .section2__block2-img6 {
-  background-image: url("/site5/img/img6.jpeg");
+  background-image: url("img/img6.jpeg");
   background-size: cover;
 }
 .main .main__section2 .main__section2-block2 .section2__block2-box .section2__block2-img1, .main .main__section2 .main__section2-block2 .section2__block2-box .section2__block2-img2, .main .main__section2 .main__section2-block2 .section2__block2-box .section2__block2-img3, .main .main__section2 .main__section2-block2 .section2__block2-box .section2__block2-img4, .main .main__section2 .main__section2-block2 .section2__block2-box .section2__block2-img5, .main .main__section2 .main__section2-block2 .section2__block2-box .section2__block2-img6 {
